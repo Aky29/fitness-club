@@ -1,0 +1,128 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+}
+header {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      box-sizing: border-box;
+      z-index: 1000;
+}
+.header-buttons {
+      display: flex;
+      gap: 12px;
+    }
+.header-button {
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.2s;
+    }
+.header-button:hover {
+      background: #ffffff;
+      color: #000000;
+    }
+    main {
+      padding: 40px 32px;
+      background: rgba(255,255,255,0.9);
+      min-height: 1200px; /* Just for demo: forces scrolling */
+    }
+.intro-section {
+      text-align: center;
+      background-image: url("./asset/WALLPAPER.webp");
+      backdrop-filter: blur(10px);
+      width: 100vw;
+      color: #f4f4f4;
+      object-fit: cover;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      margin-left: -32px;
+      margin-top: -60px;
+      padding: 60px;
+
+}
+.art-item {
+      margin: 20px 0;
+      padding: 20px;
+      background: #f4f4f4;
+      border-radius: 8px;
+      box-shadow:  0 20px 20px rgba(0, 0, 0, 0.2);;
+}
+.art-title{
+      font-size: 24px;
+      margin-bottom: 10px;
+}
+.art-image{
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+}
+.cal{
+      margin: 20px 0;
+      padding: 20px;
+      background: #f4f4f4;
+      border-radius: 8px;
+      display: flex;
+      box-shadow:  0 20px 20px rgba(0, 0, 0, 0.2);
+      flex-direction: column;
+      align-items: center;
+}
+.button-of{
+      background-color: #28a745;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.2s;
+      margin-top: 10px;
+}
+#button-of:hover {
+      background: #218838;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+      footer a:hover {
+        text-decoration: underline;
+      }
+#weight, #height {
+      width: 100px;
+      padding: 8px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNESS CLUB</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>FlexNation Gym</h1>
+    <div class="header-buttons">
+      <button class="header-button">Home</button>
+      <button class="header-button">About</button>
+      <button class="header-button">Contact</button>
+    </div>
+  </header>
+  <main>
+    <section class="intro-section">
+      <h2>THE GYM OF CHAGNE</h2>
+      <p>Your transformation starts here.</p>
+    </section>
+    <section class="gallery-section">
+      <h2>Art Gallery</h2>
+      <div class="gallery">
+          <p class="art-title">HEALTHY DIET<br><ul>
+<li><strong>Breakfast:</strong> Oats with milk, eggs, banana.</li>
+<li><strong>Mid-Morning Snack:</strong> Greek yogurt or fruits.</li>
+<li><strong>Pre-Workout:</strong> Peanut butter toast or banana.</li>
+<li><strong>Post-Workout:</strong> Protein shake + banana.</li>
+<li><strong>Lunch:</strong> Chicken/tofu, rice, vegetables.</li>
+<li><strong>Evening Snack:</strong> Nuts or protein bar.</li>
+<li><strong>Dinner:</strong> Salmon/lentils, sweet potato, salad.</li>
+<li><strong>Before Bed:</strong> Cottage cheese or casein shake.</li>
+</ul></p>
+        </div>
+
+        <div class="cal">
+            <h2>BMI Calculator</h2>
+  <label for="weight">Weight (kg):</label>
+  <input type="number" id="weight" min="1">
+
+  <label for="height">Height (cm):</label>
+  <input type="number" id="height" min="1">
+
+  <button class="button-of" onclick="calculateBMI()">Calculate BMI</button>
+  <span class="result" id="result"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
